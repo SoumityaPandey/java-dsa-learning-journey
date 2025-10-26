@@ -1,4 +1,4 @@
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 public class stringorder {
     public static void main(String[] args) {
@@ -11,4 +11,5 @@ public class stringorder {
         String sortedText = new String(arr);
         System.out.println("Sorted string: " + sortedText);
     }
+ 
 }
