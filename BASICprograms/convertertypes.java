@@ -15,8 +15,6 @@ public class convertertypes {
         String input = sc.next();
 
         int decimal = 0;
-
-        // Convert input to decimal first
         switch (choice) {
             case 1: // Binary
                 decimal = Integer.parseInt(input, 2);
@@ -34,8 +32,7 @@ public class convertertypes {
                 System.out.println("Invalid choice!");
                 System.exit(0);
         }
-
-        // Print in all bases
+      
         System.out.println("Decimal: " + decimal);
         System.out.println("Binary: " + Integer.toBinaryString(decimal));
         System.out.println("Octal: " + Integer.toOctalString(decimal));

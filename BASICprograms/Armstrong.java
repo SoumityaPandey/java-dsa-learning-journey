@@ -15,7 +15,7 @@ public class Armstrong {
         int sum = 0 ;
         while(temp2>0){
          int multiply = 1 ; //// reset for each digit
-         int rem = 0 ;////// reset for each digit that's why we are intializing it here .
+         int rem = 0 ;////// reset for each digit that's why we are intializing it here 
          rem = temp2%10 ;
          for(int i = 1 ; i <=length ;i++){
          multiply = multiply * rem ;
