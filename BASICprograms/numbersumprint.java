@@ -10,7 +10,5 @@ public class numbersumprint {
         n = n/10;
         }
         System.out.println(sum);
-        
     }
-    
 }
