@@ -1,8 +1,6 @@
 /*Write a recursive program to generate the first N numbers in the Fibonacci sequence. */
 
 import java.util.Scanner ; 
-//package Recursion;
-
 public class fibo {
         static int Fibo(int n){
          if (n == 1 || n == 2) {

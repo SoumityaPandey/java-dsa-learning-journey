@@ -1,6 +1,6 @@
 /*Create a method that takes a two-dimensional array and returns the sum of all its elements.  */
 import java.util.*;
-public class twoDarraysum {
+public class twodarraysum {
     static int arraysum(int [][] arr){
         int sum = 0 ;
         for(int i = 0 ; i< 2 ; i++){
